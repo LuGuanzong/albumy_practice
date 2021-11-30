@@ -1,12 +1,22 @@
 [[source]]
-url = "https://pypi.org/simple"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 verify_ssl = true
 name = "pypi"
 
-[packages]
-flask = "*"
-
 [dev-packages]
+faker = "*"
+watchdog = "*"
 
-[requires]
-python_version = "3.9"
+[packages]
+flask-sqlalchemy = "*"
+flask-login = "*"
+flask-dropzone = "*"
+flask-mail = "*"
+flask-moment = "*"
+flask-wtf = "*"
+python-dotenv = "*"
+pillow = "*"
+bootstrap-flask = "*"
+flask = "*"
+flask-whooshee = "*"
+flask-avatars = "*"
